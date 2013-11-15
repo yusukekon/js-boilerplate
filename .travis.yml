@@ -1,0 +1,13 @@
+language: node_js
+node_js:
+    - "0.10"
+before_script:
+    - npm install bower
+    - ./node_modules/bower/bin/bower install
+    - sh -e /etc/init.d/xvfb start
+    - sleep 3
+notifications:
+    emails:
+        - kkoonn84@gmail.com
+    on_success: change
+    on_failure: always

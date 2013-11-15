@@ -1,0 +1,15 @@
+{
+  "name": "jstest-bootstrap",
+  "version": "0.0.0",
+  "scripts": {
+    "test": "./node_modules/testem/testem.js -l PhantomJS ci"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/yusukekon/jstest-bootstrap.git"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "testem": "~0.5.8"
+  }
+}
