@@ -1,7 +1,10 @@
 define(function() {
     return {
-        add: function(a, b) {
-            return a + b;
+        add: function(var_args) {
+            var args = Array.prototype.slice.call(arguments);
+            return args.reduce(function(previousValue, currentValue) {
+                return previousValue + currentValue;
+            }, 0);
         }
     };
 });
