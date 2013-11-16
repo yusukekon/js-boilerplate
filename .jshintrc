@@ -1,0 +1,41 @@
+{
+    // Enforcing options
+    "bitwise": true,
+    "camelcase": false,
+    "curly": true,
+    "eqeqeq": true,
+    //"es5": true,
+    "forin": false, // TODO use suppress
+    "immed": true,
+    "indent": false,
+    "latedef": true,
+    "newcap": true,
+    "noarg": true,
+    "noempty": false,
+    "nonew": true,
+    "plusplus": false,
+    "quotmark": true,
+    "undef": true,
+    "unused": "vars", // 未使用の引数を許可
+    "strict": false,
+    "trailing": true,
+    "maxparams": 4, // TODO decrease me!!
+    "maxdepth": 7, // TODO decrease me!!
+    "maxstatements": 100, // TODO decrease me!!
+    "maxcomplexity": 34, // TODO decrease me!!
+    "maxlen": 150,
+
+    // Relaxing options
+    "eqnull": true,
+    "expr": true,
+    "sub": true,
+
+    // Environments
+    "browser": true,
+
+    // Global variables
+    "globals": {
+        "require": false,
+        "define": false
+    }
+}

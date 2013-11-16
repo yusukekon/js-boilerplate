@@ -2,3 +2,8 @@ framework: mocha
 test_page: test/testem.html.mustache
 src_files:
     - test/**/*.test.js
+launch_in_ci:
+    - PhantomJS
+launch_in_dev:
+    - PhantomJS
+    - Chrome

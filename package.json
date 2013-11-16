@@ -2,7 +2,7 @@
   "name": "jstest-bootstrap",
   "version": "0.0.0",
   "scripts": {
-    "test": "./node_modules/testem/testem.js -l PhantomJS ci"
+    "test": "./node_modules/grunt-cli/bin/grunt && ./node_modules/testem/testem.js -l PhantomJS ci"
   },
   "repository": {
     "type": "git",
@@ -10,6 +10,9 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "testem": "~0.5.8"
+    "grunt": "~0.4.1",
+    "grunt-contrib-jshint": "~0.7.1",
+    "closure-linter-wrapper": "~0.2.9",
+    "grunt-gjslint": "~0.1.3"
   }
 }
