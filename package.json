@@ -1,12 +1,12 @@
 {
-  "name": "jstest-bootstrap",
+  "name": "js-boilerplate",
   "version": "0.0.0",
   "scripts": {
     "test": "./node_modules/grunt-cli/bin/grunt && ./node_modules/testem/testem.js -l PhantomJS ci"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/yusukekon/jstest-bootstrap.git"
+    "url": "git://github.com/yusukekon/js-boilerplate.git"
   },
   "dependencies": {},
   "devDependencies": {
