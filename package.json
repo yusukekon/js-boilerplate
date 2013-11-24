@@ -2,7 +2,7 @@
   "name": "js-boilerplate",
   "version": "0.0.0",
   "scripts": {
-    "test": "./node_modules/grunt-cli/bin/grunt && ./node_modules/testem/testem.js -l PhantomJS ci"
+    "test": "./node_modules/grunt-cli/bin/grunt jshint && ./node_modules/testem/testem.js -l PhantomJS ci"
   },
   "repository": {
     "type": "git",
