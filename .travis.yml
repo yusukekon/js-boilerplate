@@ -6,6 +6,9 @@ before_script:
     - ./node_modules/bower/bin/bower install
     - sh -e /etc/init.d/xvfb start
     - sleep 3
+script:
+    - "./node_modules/grunt-cli/bin/grunt jshint:src"
+    - "./node_modules/testem/testem.js -l Firefox ci"
 notifications:
     emails:
         - kkoonn84@gmail.com
