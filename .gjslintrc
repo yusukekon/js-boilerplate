@@ -7,7 +7,7 @@
 --jslint_error=optional_type_marker
 --jslint_error=unused_private_members
 #--check_html
---max_line_length=65545
+--max_line_length=150
 --multiprocess
 --time
 #--unix_mode
