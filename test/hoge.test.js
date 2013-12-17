@@ -8,5 +8,13 @@ define(['../src/hoge'], function(hoge) {
                 expect(hoge.add(1, 2, 3)).to.be.equal(6);
             });
         });
+        describe('#max', function() {
+            it('(1, 2) should be 2', function() {
+                expect(hoge.max(1, 2)).to.be.equal(2);
+            });
+            it('(10, 2) should be 10', function() {
+                expect(hoge.max(10, 2)).to.be.equal(10);
+            });
+        });
     });
 });
